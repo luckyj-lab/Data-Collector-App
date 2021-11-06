@@ -5,7 +5,7 @@ from sqlalchemy.sql import func
 from flask_sqlalchemy import SQLAlchemy
 
 application = app = Flask(__name__)
-application.config['SQLALCHEMY_DATABASE_URI']='mysql://height:Hello123@aa115mww7fg5bgl.cuev94lckpjr.us-east-1.rds.amazonaws.com:3306/aa115mww7fg5bgl'
+application.config['SQLALCHEMY_DATABASE_URI']='postgres://height:MISSmiss82@aa2qisgyqxhw8n.cuev94lckpjr.us-east-1.rds.amazonaws.com:5432/aa2qisgyqxhw8n'
 db=SQLAlchemy(application)
 
 class Data(db.Model):
